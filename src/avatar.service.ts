@@ -2,8 +2,8 @@ import { AVATAR_CONFIG } from './avatar-config.token';
 import { AvatarConfig } from './avatar-config';
 import { Injectable,Inject,Optional } from '@angular/core';
 import { Http } from "@angular/http";
-import { Observable } from "rxjs/Observable";
-import 'rxjs/add/operator/map';
+import { Observable } from "rxjs";
+import 'rxjs';
 
 
 

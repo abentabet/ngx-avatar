@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs';
+import 'rxjs';
 import { User } from "./user.model";
 
 /**
  * Service used to fecth Async informations about the user
- * 
+ *
  * @export
  * @class AppService
  */
@@ -25,5 +25,5 @@ export class UserService {
     }
 
 
-    
+
 }
