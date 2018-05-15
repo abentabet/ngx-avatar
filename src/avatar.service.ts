@@ -145,7 +145,7 @@ export class AvatarService {
      * @return {Observable} of json data
      */
     fetchAvatar(avatarUrl:string):Observable<any>{
-       return this.http.get(avatarUrl).map(response => response.json());
+       return this.http.get(avatarUrl).pipe(map(response => response.json()));
     }
 
 }
